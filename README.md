@@ -1,5 +1,4 @@
 # LISHAYY_Fashion_Store
-# LISHAYY – Fashion Store Website 👗✨
 
 LISHAYY is a modern and responsive fashion store website developed using HTML, CSS, and JavaScript. The website showcases elegant fashion products through a clean, user-friendly, and visually appealing interface.
 
