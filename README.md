@@ -20,11 +20,6 @@ LISHAYY is a modern and responsive fashion store website developed using HTML, C
 
 This project was created to strengthen my front-end web development skills and gain practical experience in designing responsive websites.
 
-## Live Demo
-
-https://aleeshazafariqbal.github.io/LISHAYY_Fashion_Store/
-
-
 ## Repository
 
 https://github.com/AleeshaZafarIqbal/LISHAYY_Fashion_Store
