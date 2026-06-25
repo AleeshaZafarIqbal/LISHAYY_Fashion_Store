@@ -22,7 +22,7 @@ This project was created to strengthen my front-end web development skills and g
 
 ## Live Demo
 
-https://aleeshazafariqbal.github.io/LISHAYY_Fashion_Store/
+https://AleeshaZafarIqbal.github.io/LISHAYY_Fashion_Store/
 
 ## Repository
 
