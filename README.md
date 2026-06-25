@@ -98,4 +98,3 @@ University of Gujrat (UOG) – Government Graduate College Tahlianwala Jhelum Ca
 
 GitHub:
 https://github.com/AleeshaZafarIqbal/LISHAYY_Fashion_Store
-
