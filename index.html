@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LISHAYY — Modern Fashion &amp; Designer Clothing</title>
+  <meta name="description" content="LISHAYY is a contemporary fashion house offering elegant ready-to-wear dresses, tops and outerwear crafted for the modern wardrobe.">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== Header ===================== -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="index.html" class="brand">LIS<span>H</span>AYY</a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="products.html">Shop</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="products.html" class="icon-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="products.html" class="icon-btn" aria-label="Shopping bag">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-count" id="cart-count" style="display:none">0</span>
+        </a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===================== Hero ===================== -->
+    <section class="hero" id="hero-section">
+      <div class="container">
+        <div class="hero-inner reveal">
+          <span class="eyebrow">Spring / Summer Collection 2026</span>
+          <h1>Effortless Elegance, Redefined.</h1>
+          <p>Discover timeless silhouettes and contemporary essentials, thoughtfully designed for the modern wardrobe.</p>
+          <div class="hero-actions">
+            <a href="products.html" class="btn btn--light">Shop the Collection</a>
+            <a href="index.html#about" class="btn btn--light btn--outline" style="color:#fff;border-color:#fff;">Our Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== Feature strip ===================== -->
+    <section class="feature-strip" aria-label="Store benefits">
+      <div class="feature"><i class="fa-solid fa-truck-fast"></i><h4>Free Shipping</h4><p>On orders over $150</p></div>
+      <div class="feature"><i class="fa-solid fa-rotate-left"></i><h4>Easy Returns</h4><p>30-day return policy</p></div>
+      <div class="feature"><i class="fa-solid fa-lock"></i><h4>Secure Payment</h4><p>Encrypted checkout</p></div>
+      <div class="feature"><i class="fa-solid fa-headset"></i><h4>Concierge</h4><p>Personal styling support</p></div>
+    </section>
+
+    <!-- ===================== Categories ===================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Browse</span>
+          <h2>Shop by Category</h2>
+          <p>Curated pieces across our signature collections.</p>
+        </div>
+        <div class="category-grid">
+          <a href="products.html?category=dresses" class="category-card reveal">
+            <img src="images/product1.jpg" alt="Dresses collection">
+            <div class="overlay"><div><span>12 styles</span><h3>Dresses</h3></div></div>
+          </a>
+          <a href="products.html?category=outerwear" class="category-card reveal">
+            <img src="images/product3.jpg" alt="Outerwear collection">
+            <div class="overlay"><div><span>8 styles</span><h3>Outerwear</h3></div></div>
+          </a>
+          <a href="products.html?category=tops" class="category-card reveal">
+            <img src="images/product2.jpg" alt="Tops collection">
+            <div class="overlay"><div><span>10 styles</span><h3>Tops</h3></div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== Featured products ===================== -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Handpicked</span>
+          <h2>Featured Pieces</h2>
+          <p>Our most-loved designs, selected just for you.</p>
+        </div>
+        <div class="product-grid" id="featured-grid"></div>
+        <div style="text-align:center;margin-top:48px;" class="reveal">
+          <a href="products.html" class="btn btn--outline">View All Products</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== About ===================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="split">
+          <div class="reveal">
+            <span class="eyebrow">Our Story</span>
+            <h2>Crafted with Intention</h2>
+            <p>Founded in 2015, LISHAYY began with a simple belief: that fashion should be both beautiful and enduring. Every garment is designed in-house and produced in limited runs by skilled artisans.</p>
+            <p>We blend modern tailoring with sustainable, premium fabrics — creating pieces you'll reach for season after season.</p>
+            <div class="stats">
+              <div class="stat"><strong>10+</strong><span>Years of Craft</span></div>
+              <div class="stat"><strong>50k+</strong><span>Happy Clients</span></div>
+              <div class="stat"><strong>120</strong><span>Unique Designs</span></div>
+            </div>
+          </div>
+          <div class="reveal">
+            <img src="images/about.jpg" alt="LISHAYY atelier and design studio">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== Newsletter CTA ===================== -->
+    <section class="cta-banner">
+      <div class="container reveal">
+        <h2>Join the LISHAYY List</h2>
+        <p>Be the first to know about new arrivals, exclusive offers and styling tips.</p>
+        <form class="newsletter-form" id="newsletter-form" novalidate>
+          <input type="email" placeholder="Enter your email address" aria-label="Email address" required>
+          <button type="submit" class="btn btn--accent">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== Footer ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="brand">LIS<span>H</span>AYY</a>
+          <p>Contemporary fashion crafted for the modern wardrobe. Timeless design, sustainable materials.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="products.html?category=dresses">Dresses</a></li>
+            <li><a href="products.html?category=tops">Tops</a></li>
+            <li><a href="products.html?category=outerwear">Outerwear</a></li>
+            <li><a href="products.html">New Arrivals</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Sustainability</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#">Shipping &amp; Returns</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; <span id="year">2026</span> LISHAYY Fashion House. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Render featured products (first 6) on the home page
+    document.addEventListener('DOMContentLoaded', () => {
+      const grid = document.getElementById('featured-grid');
+      if (grid) {
+        grid.innerHTML = PRODUCTS.slice(0, 6).map(productCardHTML).join('');
+        initReveal();
+      }
+    });
+  </script>
+</body>
+</html>
